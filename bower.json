@@ -1,0 +1,20 @@
+{
+  "name": "japan-wp-blog",
+  "authors": [
+    "Liliana Brissos <liliana@lilianab.com>"
+  ],
+  "description": "static theme for japan photoblog",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

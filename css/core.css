@@ -280,7 +280,7 @@ a img:hover {
 section, .section {
   position: relative;
   z-index: 992;
-  padding-top: 90px;
+  padding-top: 100px;
   padding-bottom: 90px;
   background-color: #fff;
 }
@@ -2136,16 +2136,17 @@ blockquote:after {
 
 .portfolio-overlay {
   position: absolute;
-  top: 20px;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
   opacity: 0;
   transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   visibility: hidden;
   overflow: hidden;
+  border: 1px solid white;
 }
 
 .portfolio-overlay .caption {
@@ -2153,22 +2154,30 @@ blockquote:after {
   position: absolute;
   bottom: 100px;
   left: 0;
-  padding: 0 30px;
   text-align: left;
   transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   opacity: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 0 0 10px 15px;
+}
+
+.portfolio-overlay .fa {
+  color: #AEA8D3;
+  opacity: 1 !important;
+  font-size: 15px;
 }
 
 .portfolio-item a:hover .portfolio-overlay .caption {
-  bottom: 10%;
+  bottom: 0;
   opacity: 1;
 }
 
 .portfolio-item a h5 {
   margin-bottom: 0;
   font-weight: 700;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-wide div {

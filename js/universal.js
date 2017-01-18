@@ -1,9 +1,3 @@
-/****************************************************************************************
- Universal - Smart multi-purpose html5 template
- To use this template you must have a license purchased at Themeforest (themeforest.com)
- Copyright 2016 ForBetterWeb.com
- ***************************************************************************************/
-
 (function($){
     "use strict";
     $(document).ready(function() {

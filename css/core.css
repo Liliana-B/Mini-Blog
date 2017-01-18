@@ -1,53 +1,8 @@
-/*!
-    Universal - Smart multi-purpose html5 template
-    To use this template you must have a license purchased at Themeforest (themeforest.com)
-    Copyright 1995-2016 ForBetterWeb.com
- */
-/*------------------------------------------------------------------
 
-Table of contents
-
-* Fonts
-* Plugins
-* Base structure
-  * Preloader
-  * Buttons
-  * NavBar
-  * Backgrounds and font color
-  * Intro
-    * Intro solid color
-    * Video background
-  * Forms
-    * Subscribe form
-  * Countdown
-  * News - Blog grid
-  * Team
-  * Contact
-  * Quote
-  * Facts
-  * Map
-  * Carousel
-    * Shop thumbnails carousel
-  * Animated mouse
-  * Text rotator
-  * Number scroller
-  * Testimonials
-  *  Portfolio
-  * Pricing
-  * Miscellaneous
-  * Pager
-  * Bars and charts
-  * Shop
-  * Media Queries
-  * Magic background
-  * Footer
-* Stop animation on mobile devices
-* Demo page
-
--------------------------------------------------------------------*/
 /* Fonts */
-@import 'https://fonts.googleapis.com/css?family=Bitter|Montserrat:700';
+@import url(https://fonts.googleapis.com/css?family=Bitter|Montserrat:700);
 /* Plugins */
+@import url(bootstrap.min.css);
 @import url(../js/vegas/vegas.min.css);
 @import url(ionicons.min.css);
 @import url(font-awesome.min.css);
